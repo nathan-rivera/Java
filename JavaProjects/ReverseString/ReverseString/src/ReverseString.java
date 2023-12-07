@@ -4,7 +4,7 @@ public class ReverseString
 	public static void main (String[]args) {
 		
 		
-		String str = "HelloWorld";
+		String str = "HelloNathan";
 		String result = "";
 		
 		for(int i = str.length()-1; i>=0; i--)
@@ -29,7 +29,7 @@ public class ReverseString
 
 // Initialization:
 
-// String str = "HelloWorld";: Initializes a string variable str with the value "HelloWorld".
+// String str = "HelloNathan";: Initializes a string variable str with the value "HelloNathan".
 // String result = "";: Initializes an empty string result where the reversed string will be stored.
 // Reversing the String:
 
@@ -38,7 +38,7 @@ public class ReverseString
 // Printing the Reversed String:
 
 // System.out.println(result);: Finally, it prints the reversed string (result) to the console.
-// In summary, the code reverses the string "HelloWorld" by iterating through the characters of the original string in reverse order and constructing a new string (result) with those characters.
+// In summary, the code reverses the string "HelloNathan" by iterating through the characters of the original string in reverse order and constructing a new string (result) with those characters.
 
 // Please note that while this code works fine for small strings, concatenating strings using the += operator in a loop can be inefficient for large strings due to the immutable nature of strings in Java, as it creates new strings in memory for each concatenation. For larger operations, using a StringBuilder for string manipulation is generally more efficient.
 
